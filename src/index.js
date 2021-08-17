@@ -4,6 +4,9 @@ function eval() {
 }
 
 function expressionCalculator(expr) {
+
+    let run = new Function(expr);
+    return run(arg);
     // write your solution here
 }
 
